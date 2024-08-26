@@ -10,4 +10,5 @@
     "start:backend": "cd backend && npm start",
     "build": "npm run build:frontend",
     "build:frontend": "cd frontend && npm run build"
+  }
 }
