@@ -1,0 +1,20 @@
+{
+  "name": "passport-sewa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "start": "npm run start:backend",
+    "start:backend": "cd backend && npm start",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    // Add common dependencies if needed (rarely needed in this setup)
+  },
+  "devDependencies": {
+    // Add dev dependencies that are shared
+  }
+}
