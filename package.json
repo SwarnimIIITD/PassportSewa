@@ -10,11 +10,4 @@
     "start:backend": "cd backend && npm start",
     "build": "npm run build:frontend",
     "build:frontend": "cd frontend && npm run build"
-  },
-  "dependencies": {
-    // Add common dependencies if needed (rarely needed in this setup)
-  },
-  "devDependencies": {
-    // Add dev dependencies that are shared
-  }
 }
